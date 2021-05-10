@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name random_keyboard_parts)(type KiCad)(uri D:/Keyboard_Designs/rnm-75E/random-keyboard-parts.pretty)(options "")(descr ""))
+  (lib (name mx_alps)(type KiCad)(uri D:/Keyboard_Designs/rnm-75E/MX_Alps_Hybrid.pretty)(options "")(descr ""))
+)
