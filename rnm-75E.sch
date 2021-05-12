@@ -596,13 +596,13 @@ $EndComp
 Connection ~ 6150 3600
 Wire Wire Line
 	6150 3600 5950 3600
-Text GLabel 10050 3500 2    50   Input ~ 0
-SCK
 Text GLabel 10050 1400 2    50   Input ~ 0
+SCK
+Text GLabel 10050 1500 2    50   Input ~ 0
 MOSI
 Wire Wire Line
 	10500 3400 10050 3400
-Text GLabel 10050 1300 2    50   Input ~ 0
+Text GLabel 10050 1600 2    50   Input ~ 0
 MISO
 Text Notes 4500 0    0    50   ~ 0
 OK. PORTS 25-32 are very nice to use. Ports 36-42 are also very nice to use. \n18-22 also very nice. Total gives 20 EZ access
@@ -3121,7 +3121,7 @@ Wire Wire Line
 Connection ~ 22300 4600
 Connection ~ 22300 1600
 Wire Wire Line
-	22300 1600 22300 250 
+	22300 1600 22300 500 
 Connection ~ 22300 2600
 Wire Wire Line
 	22300 2600 22300 1600
@@ -3533,10 +3533,42 @@ Text GLabel 10050 2600 2    50   Input ~ 0
 COL11
 Text GLabel 10050 2500 2    50   Input ~ 0
 COL12
-Text GLabel 10050 1600 2    50   Input ~ 0
+Text GLabel 10050 1300 2    50   Input ~ 0
 COL13
-Text GLabel 10050 1500 2    50   Input ~ 0
+Text GLabel 10050 3500 2    50   Input ~ 0
 COL14
 Text GLabel 10050 2000 2    50   Input ~ 0
 COL15
+$Comp
+L Device:Rotary_Encoder_Switch SW?
+U 1 1 61694078
+P 21700 600
+F 0 "SW?" H 21700 967 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 21700 876 50  0000 C CNN
+F 2 "" H 21550 760 50  0001 C CNN
+F 3 "~" H 21700 860 50  0001 C CNN
+	1    21700 600 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6169EE37
+P 22000 900
+F 0 "D?" V 22046 830 50  0000 R CNN
+F 1 "D_Small" V 21955 830 50  0000 R CNN
+F 2 "" V 22000 900 50  0001 C CNN
+F 3 "~" V 22000 900 50  0001 C CNN
+	1    22000 900 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22000 500  22300 500 
+Connection ~ 22300 500 
+Wire Wire Line
+	22300 500  22300 250 
+Wire Wire Line
+	22000 700  22000 800 
+Wire Wire Line
+	22000 1000 20500 1000
+Connection ~ 20500 1000
 $EndSCHEMATC
