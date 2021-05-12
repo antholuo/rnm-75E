@@ -2,4 +2,5 @@
   (lib (name MX_ALPS_HYBRID)(type Legacy)(uri "D:/Keyboard_Designs/rnm-75E/Libraries/MX_Alps_Hybrid.pretty/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
   (lib (name random_keyb_parts)(type Legacy)(uri "D:/Keyboard_Designs/rnm-75E/Libraries/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib")(options "")(descr ""))
   (lib (name Type-C)(type Legacy)(uri ${KIPRJMOD}/Libraries/Type-C.pretty-master/Type-C.pretty-master/Type-C.lib)(options "")(descr ""))
+  (lib (name OLED)(type Legacy)(uri D:/Keyboard_Designs/rnm-75E/Libraries/KiCad-SSD1306_OLED-0.91-128x32-master/SSD1306_OLED-0.91-128x32.lib)(options "")(descr ""))
 )

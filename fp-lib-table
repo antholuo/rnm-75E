@@ -1,6 +1,8 @@
 (fp_lib_table
-  (lib (name random_keyboard_parts)(type KiCad)(uri D:/Keyboard_Designs/rnm-75E/random-keyboard-parts.pretty)(options "")(descr ""))
-  (lib (name mx_alps)(type KiCad)(uri D:/Keyboard_Designs/rnm-75E/MX_Alps_Hybrid.pretty)(options "")(descr ""))
-  (lib (name MX_ALPS)(type KiCad)(uri D:/Keyboard_Designs/rnm-75E/MX_Alps_Hybrid.pretty/MX_Alps_Hybrid.pretty)(options "")(descr ""))
-  (lib (name MX_ONLY)(type KiCad)(uri D:/Keyboard_Designs/rnm-75E/MX_Alps_Hybrid.pretty/MX_Only.pretty)(options "")(descr ""))
+  (lib (name random_keyboard_parts)(type KiCad)(uri D:/Keyboard_Designs/rnm-75E/Libraries/random-keyboard-parts.pretty)(options "")(descr ""))
+  (lib (name mx_alps)(type KiCad)(uri D:/Keyboard_Designs/rnm-75E/Libraries/MX_Alps_Hybrid.pretty)(options "")(descr ""))
+  (lib (name MX_ALPS)(type KiCad)(uri D:/Keyboard_Designs/rnm-75E/Libraries/MX_Alps_Hybrid.pretty/Alps_Only.pretty)(options "")(descr ""))
+  (lib (name MX_ONLY)(type KiCad)(uri D:/Keyboard_Designs/rnm-75E/Libraries/MX_Alps_Hybrid.pretty/MX_Only.pretty)(options "")(descr ""))
+  (lib (name OLED)(type KiCad)(uri "D:/Keyboard_Designs/rnm-75E/Libraries/oled stuff.pretty")(options "")(descr ""))
+  (lib (name TYPE_C)(type KiCad)(uri D:/Keyboard_Designs/rnm-75E/Libraries/Type-C.pretty-master/Type-C.pretty-master)(options "")(descr ""))
 )
