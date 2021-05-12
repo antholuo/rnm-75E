@@ -596,7 +596,7 @@ $EndComp
 Connection ~ 6150 3600
 Wire Wire Line
 	6150 3600 5950 3600
-Text GLabel 10050 2000 2    50   Input ~ 0
+Text GLabel 10050 3500 2    50   Input ~ 0
 SCK
 Text GLabel 10050 1400 2    50   Input ~ 0
 MOSI
@@ -3492,9 +3492,51 @@ Wire Wire Line
 Connection ~ 19450 5800
 Wire Wire Line
 	19450 5800 19600 5800
-Wire Wire Line
-	18150 6000 17000 6000
 Connection ~ 18150 6000
 Wire Wire Line
 	18150 6000 18800 6000
+Text GLabel 10050 3700 2    50   Input ~ 0
+ROWF
+Text GLabel 10050 3800 2    50   Input ~ 0
+ROWE
+Text GLabel 10050 3900 2    50   Input ~ 0
+ROWD
+Text GLabel 10050 4000 2    50   Input ~ 0
+ROWC
+Text GLabel 10050 4100 2    50   Input ~ 0
+ROWB
+Text GLabel 10050 4200 2    50   Input ~ 0
+ROWA
+Text GLabel 10050 2300 2    50   Input ~ 0
+COL0
+Text GLabel 10050 2200 2    50   Input ~ 0
+COL1
+Text GLabel 10050 1900 2    50   Input ~ 0
+COL2
+Text GLabel 10050 1800 2    50   Input ~ 0
+COL3
+Text GLabel 10050 1700 2    50   Input ~ 0
+COL4
+Text GLabel 10050 3200 2    50   Input ~ 0
+COL5
+Text GLabel 10050 3100 2    50   Input ~ 0
+COL6
+Text GLabel 10050 2900 2    50   Input ~ 0
+COL7
+Text GLabel 10050 3000 2    50   Input ~ 0
+COL8
+Text GLabel 10050 2800 2    50   Input ~ 0
+COL9
+Text GLabel 10050 2700 2    50   Input ~ 0
+COL10
+Text GLabel 10050 2600 2    50   Input ~ 0
+COL11
+Text GLabel 10050 2500 2    50   Input ~ 0
+COL12
+Text GLabel 10050 1600 2    50   Input ~ 0
+COL13
+Text GLabel 10050 1500 2    50   Input ~ 0
+COL14
+Text GLabel 10050 2000 2    50   Input ~ 0
+COL15
 $EndSCHEMATC
