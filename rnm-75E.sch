@@ -219,21 +219,6 @@ F 3 "" H 2200 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Crystal_GND24_Small Y1
-U 1 1 609BC559
-P 2250 1800
-F 0 "Y1" V 2204 1944 50  0000 L CNN
-F 1 "MHz" V 2295 1944 50  0000 L CNN
-F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 2250 1800 50  0001 C CNN
-F 3 "~" H 2250 1800 50  0001 C CNN
-	1    2250 1800
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2250 1700 2950 1700
-Wire Wire Line
-	2950 1900 2250 1900
-$Comp
 L Device:C_Small C4
 U 1 1 609BFC0E
 P 1950 1600
@@ -258,13 +243,7 @@ $EndComp
 Wire Wire Line
 	2050 1950 2050 1900
 Wire Wire Line
-	2050 1900 2250 1900
-Connection ~ 2250 1900
-Wire Wire Line
 	2050 1600 2050 1700
-Wire Wire Line
-	2050 1700 2250 1700
-Connection ~ 2250 1700
 Wire Wire Line
 	1850 1600 1850 1950
 $Comp
@@ -596,10 +575,48 @@ Wire Wire Line
 	4600 3600 4650 3600
 Wire Wire Line
 	4150 3600 4400 3600
-Text GLabel 4150 2100 2    50   Input ~ 0
+Text GLabel 4150 3300 2    50   Input ~ 0
 ROW1
 Text GLabel 4150 2000 2    50   Input ~ 0
 COL0
 Text GLabel 4150 1900 2    50   Input ~ 0
 COL1
+$Comp
+L Device:Crystal_GND24_Small Y1
+U 1 1 609B4FA0
+P 2250 1800
+F 0 "Y1" V 2204 1944 50  0000 L CNN
+F 1 "Crystal_GND24_Small" V 2295 1944 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 2250 1800 50  0001 C CNN
+F 3 "~" H 2250 1800 50  0001 C CNN
+	1    2250 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2050 1700 2250 1700
+Wire Wire Line
+	2050 1900 2250 1900
+Connection ~ 2250 1700
+Wire Wire Line
+	2250 1700 2950 1700
+Connection ~ 2250 1900
+Wire Wire Line
+	2250 1900 2950 1900
+$Comp
+L Device:C_Small C8
+U 1 1 60A5117E
+P 550 4200
+F 0 "C8" H 642 4246 50  0000 L CNN
+F 1 "0.1uF" H 642 4155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 550 4200 50  0001 C CNN
+F 3 "~" H 550 4200 50  0001 C CNN
+	1    550  4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	550  4300 850  4300
+Connection ~ 850  4300
+Wire Wire Line
+	850  4100 550  4100
+Connection ~ 850  4100
 $EndSCHEMATC
