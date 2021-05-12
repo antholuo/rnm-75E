@@ -33,17 +33,6 @@ D+1
 Text GLabel 1900 2000 2    50   Input ~ 0
 D+1
 $Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU U2
-U 1 1 609C8DFF
-P 8750 4550
-F 0 "U2" H 8450 3950 50  0000 C CNN
-F 1 "ATmega32U4-AU" H 8650 3800 50  0000 C CNN
-F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 8750 4550 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 8750 4550 50  0001 C CNN
-	1    8750 4550
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_Small R_u1
 U 1 1 609CC161
 P 2200 1400
@@ -419,8 +408,6 @@ F 3 "" H 1000 5700 50  0001 C CNN
 	1    1000 5700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7100 6200 6800 6200
 $Comp
 L power:GND #PWR0115
 U 1 1 60A075D9
@@ -551,8 +538,6 @@ Text GLabel 3850 4700 2    50   Input ~ 0
 SCK
 Text GLabel 3850 4800 2    50   Input ~ 0
 MOSI
-Wire Wire Line
-	6600 6200 6150 6200
 Text GLabel 3850 4900 2    50   Input ~ 0
 MISO
 Text Notes 4500 0    0    50   ~ 0
