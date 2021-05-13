@@ -3554,9 +3554,9 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10000 2475 50  0001
 	1    9900 2850
 	1    0    0    -1  
 $EndComp
-Text GLabel 3300 10200 0    50   Input ~ 0
-ENCODER-
 Text GLabel 3300 10300 0    50   Input ~ 0
+ENCODER-
+Text GLabel 3300 10200 0    50   Input ~ 0
 ENCODER+
 Wire Wire Line
 	11150 3900 11150 4550
