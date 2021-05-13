@@ -1,0 +1,13 @@
+PCB WISE:
+---------------------------------
+- Add 7u spacebar support
+
+Design Wise:
+---------------------------------
+- contact @hitchbro on LCK_WAITING_ROOM discord server for case/plates.
+
+Production Wise:
+---------------------------------
+Interest Check:
+- @Magmar01#6009
+- @RiotPunch#0220
