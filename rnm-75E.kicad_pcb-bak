@@ -4373,7 +4373,7 @@
   )
 
   (module LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer B.Cu) (tedit 5AA4B285) (tstamp 609CC039)
-    (at 630.9625 -6.3375)
+    (at 629.83 -7.29)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /621A39A8)
