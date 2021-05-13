@@ -3420,15 +3420,15 @@ Text GLabel 3300 9100 0    50   Input ~ 0
 COL9
 Text GLabel 3300 9200 0    50   Input ~ 0
 COL10
-Text GLabel 4500 10300 2    50   Input ~ 0
+Text GLabel 4500 9800 2    50   Input ~ 0
 COL11
-Text GLabel 4500 10200 2    50   Input ~ 0
-COL12
-Text GLabel 4500 10100 2    50   Input ~ 0
-COL13
-Text GLabel 4500 10000 2    50   Input ~ 0
-COL14
 Text GLabel 4500 9900 2    50   Input ~ 0
+COL12
+Text GLabel 4500 10000 2    50   Input ~ 0
+COL13
+Text GLabel 4500 10100 2    50   Input ~ 0
+COL14
+Text GLabel 4500 10200 2    50   Input ~ 0
 COL15
 $Comp
 L Device:Rotary_Encoder_Switch SW2
@@ -4042,10 +4042,10 @@ COL4
 Text GLabel 4500 7000 2    50   Input ~ 0
 COL6
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0120
 U 1 1 6134010C
 P 12200 3900
-F 0 "#PWR?" H 12200 3750 50  0001 C CNN
+F 0 "#PWR0120" H 12200 3750 50  0001 C CNN
 F 1 "VCC" H 12215 4073 50  0000 C CNN
 F 2 "" H 12200 3900 50  0001 C CNN
 F 3 "" H 12200 3900 50  0001 C CNN

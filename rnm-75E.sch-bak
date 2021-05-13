@@ -3420,15 +3420,15 @@ Text GLabel 3300 9100 0    50   Input ~ 0
 COL9
 Text GLabel 3300 9200 0    50   Input ~ 0
 COL10
-Text GLabel 4500 10300 2    50   Input ~ 0
+Text GLabel 4500 9900 2    50   Input ~ 0
 COL11
-Text GLabel 4500 10200 2    50   Input ~ 0
+Text GLabel 4500 10000 2    50   Input ~ 0
 COL12
 Text GLabel 4500 10100 2    50   Input ~ 0
 COL13
-Text GLabel 4500 10000 2    50   Input ~ 0
+Text GLabel 4500 10200 2    50   Input ~ 0
 COL14
-Text GLabel 4500 9900 2    50   Input ~ 0
+Text GLabel 4500 10300 2    50   Input ~ 0
 COL15
 $Comp
 L Device:Rotary_Encoder_Switch SW2
@@ -3554,9 +3554,9 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10000 2475 50  0001
 	1    9900 2850
 	1    0    0    -1  
 $EndComp
-Text GLabel 3300 10300 0    50   Input ~ 0
-ENCODER-
 Text GLabel 3300 10200 0    50   Input ~ 0
+ENCODER-
+Text GLabel 3300 10300 0    50   Input ~ 0
 ENCODER+
 Wire Wire Line
 	12350 3900 12350 4550
@@ -4042,11 +4042,11 @@ COL4
 Text GLabel 4500 7000 2    50   Input ~ 0
 COL6
 $Comp
-L power:+5V #PWR?
-U 1 1 613311B8
+L power:VCC #PWR0120
+U 1 1 6134010C
 P 12200 3900
-F 0 "#PWR?" H 12200 3750 50  0001 C CNN
-F 1 "+5V" H 12215 4073 50  0000 C CNN
+F 0 "#PWR0120" H 12200 3750 50  0001 C CNN
+F 1 "VCC" H 12215 4073 50  0000 C CNN
 F 2 "" H 12200 3900 50  0001 C CNN
 F 3 "" H 12200 3900 50  0001 C CNN
 	1    12200 3900
