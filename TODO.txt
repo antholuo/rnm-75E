@@ -1,7 +1,8 @@
 PCB WISE:
 ---------------------------------
-- Add 7u spacebar support (this is 2x1.5 7u 2x1.5 compared to 3x1.25 6.25g 3x1)
+✓ Add 7u spacebar support (this is 2x1.5 7u 2x1.5 compared to 3x1.25 6.25g 3x1)
 - Add replaceable fuse and overcurrent protection.
+- complete pcb routing
 
 Design Wise:
 ---------------------------------
@@ -9,6 +10,6 @@ Design Wise:
 
 Production Wise:
 ---------------------------------
-Interest Check:
-- @Magmar01#6009
-- @RiotPunch#0220
+? Interest Check:
+	- @Magmar01#6009
+	- @RiotPunch#0220
