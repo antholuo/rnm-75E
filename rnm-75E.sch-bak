@@ -3412,18 +3412,6 @@ Wire Wire Line
 	17000 10850 17650 10850
 Text GLabel 4500 7600 2    50   Input ~ 0
 COL0
-Text GLabel 4500 7500 2    50   Input ~ 0
-COL1
-Text GLabel 4500 7400 2    50   Input ~ 0
-COL2
-Text GLabel 4500 7300 2    50   Input ~ 0
-COL3
-Text GLabel 4500 7200 2    50   Input ~ 0
-COL4
-Text GLabel 4500 7100 2    50   Input ~ 0
-COL5
-Text GLabel 4500 7000 2    50   Input ~ 0
-COL6
 Text GLabel 4500 6900 2    50   Input ~ 0
 COL7
 Text GLabel 3300 10300 0    50   Input ~ 0
@@ -4052,4 +4040,16 @@ F 3 "" H 6300 8700 50  0001 C CNN
 	1    6300 8700
 	1    0    0    -1  
 $EndComp
+Text GLabel 4500 7500 2    50   Input ~ 0
+COL1
+Text GLabel 4500 7400 2    50   Input ~ 0
+COL2
+Text GLabel 4500 7100 2    50   Input ~ 0
+COL5
+Text GLabel 4500 7300 2    50   Input ~ 0
+COL3
+Text GLabel 4500 7200 2    50   Input ~ 0
+COL4
+Text GLabel 4500 7000 2    50   Input ~ 0
+COL6
 $EndSCHEMATC
