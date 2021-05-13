@@ -2455,7 +2455,7 @@ U 1 1 60D03354
 P 17750 6500
 F 0 "MX41" H 17750 6650 60  0000 C CNN
 F 1 "MX-NoLED" V 17600 6500 20  0000 C CNN
-F 2 "MX_ONLY:MXOnly-6.25U-NoLED" H 17125 6475 60  0001 C CNN
+F 2 "MX_ONLY:MXOnly-6.25U-ReversedStabilizers-NoLED" H 17125 6475 60  0001 C CNN
 F 3 "" H 17125 6475 60  0001 C CNN
 	1    17750 6500
 	1    0    0    -1  
@@ -3528,18 +3528,6 @@ F 3 "" H 1800 4500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1800 4500 2650 4500
-Text GLabel 3850 6600 2    50   Input ~ 0
-ROWF
-Text GLabel 3850 6700 2    50   Input ~ 0
-ROWE
-Text GLabel 3850 6800 2    50   Input ~ 0
-ROWD
-Text GLabel 3850 6900 2    50   Input ~ 0
-ROWC
-Text GLabel 3850 7000 2    50   Input ~ 0
-ROWB
-Text GLabel 3850 7100 2    50   Input ~ 0
-ROWA
 Wire Wire Line
 	13400 1350 13400 1550
 Wire Wire Line
@@ -3827,8 +3815,6 @@ F 3 "~" H 20250 100 50  0001 C CNN
 $EndComp
 Text GLabel 20100 100  0    50   Input ~ 0
 LED_PIN
-Text GLabel 3850 4600 2    50   Input ~ 0
-LED_PIN
 $Comp
 L power:GND #PWR0123
 U 1 1 6240CE0E
@@ -3885,21 +3871,21 @@ Wire Wire Line
 Wire Wire Line
 	19400 6650 19700 6650
 $Comp
-L Connector_Generic:Conn_01x04 J?
+L Connector_Generic:Conn_01x04 J3
 U 1 1 6279F9BD
 P 4500 5600
-F 0 "J?" H 4418 5175 50  0000 C CNN
+F 0 "J3" H 4418 5175 50  0000 C CNN
 F 1 "Conn_01x04" H 4418 5266 50  0000 C CNN
-F 2 "" H 4500 5600 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 4500 5600 50  0001 C CNN
 F 3 "~" H 4500 5600 50  0001 C CNN
 	1    4500 5600
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0124
 U 1 1 6281E420
 P 5400 5250
-F 0 "#PWR?" H 5400 5000 50  0001 C CNN
+F 0 "#PWR0124" H 5400 5000 50  0001 C CNN
 F 1 "GND" H 5405 5077 50  0000 C CNN
 F 2 "" H 5400 5250 50  0001 C CNN
 F 3 "" H 5400 5250 50  0001 C CNN
@@ -3913,10 +3899,10 @@ Wire Wire Line
 Wire Wire Line
 	4950 5250 5400 5250
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0125
 U 1 1 6285CCAE
 P 5650 5500
-F 0 "#PWR?" H 5650 5350 50  0001 C CNN
+F 0 "#PWR0125" H 5650 5350 50  0001 C CNN
 F 1 "VCC" H 5665 5673 50  0000 C CNN
 F 2 "" H 5650 5500 50  0001 C CNN
 F 3 "" H 5650 5500 50  0001 C CNN
@@ -3929,6 +3915,20 @@ Text GLabel 4700 5600 2    50   Input ~ 0
 SCL
 Text GLabel 4700 5700 2    50   Input ~ 0
 SDA
+Text GLabel 3850 4600 2    50   Input ~ 0
+LED_PIN
+Text GLabel 3850 6600 2    50   Input ~ 0
+ROWF
+Text GLabel 3850 6700 2    50   Input ~ 0
+ROWE
+Text GLabel 3850 6800 2    50   Input ~ 0
+ROWD
+Text GLabel 3850 6900 2    50   Input ~ 0
+ROWC
+Text GLabel 3850 7000 2    50   Input ~ 0
+ROWB
+Text GLabel 3850 7100 2    50   Input ~ 0
+ROWA
 Text GLabel 3850 6400 2    50   Input ~ 0
 SCL
 Text GLabel 3850 6500 2    50   Input ~ 0
