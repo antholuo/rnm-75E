@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>D:\Keyboard_Designs\rnm-75E\rnm-75E.sch</source>
-    <date>5/13/2021 13:38:03</date>
+    <date>5/13/2021 14:44:18</date>
     <tool>Eeschema (5.1.9)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -21,7 +21,7 @@
   <components>
     <comp ref="J2">
       <value>USB_C_Receptacle_USB2.0</value>
-      <footprint>Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12</footprint>
+      <footprint>Connector_USB:USB_C_Receptacle_Palconn_UTC16-G</footprint>
       <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
       <libsource lib="Connector" part="USB_C_Receptacle_USB2.0" description="USB 2.0-only Type-C Receptacle connector"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1663,7 +1663,7 @@
       <tstamp>621A69E3</tstamp>
     </comp>
     <comp ref="R2">
-      <value>1k</value>
+      <value>500</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>

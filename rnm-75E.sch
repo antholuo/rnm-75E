@@ -19,7 +19,7 @@ U 1 1 609C1917
 P 1950 5000
 F 0 "J2" H 2057 5867 50  0000 C CNN
 F 1 "USB_C_Receptacle_USB2.0" H 2057 5776 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 2100 5000 50  0001 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G" H 2100 5000 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 2100 5000 50  0001 C CNN
 	1    1950 5000
 	1    0    0    -1  
