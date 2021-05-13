@@ -3668,7 +3668,7 @@ Wire Wire Line
 	12200 2850 12600 2850
 Text GLabel 4500 9400 2    50   Input ~ 0
 LED
-Text GLabel 9600 2850 0    50   Input ~ 0
+Text GLabel 9150 2850 0    50   Input ~ 0
 LED
 Wire Wire Line
 	14050 2550 15150 2550
@@ -4030,4 +4030,28 @@ Wire Wire Line
 	14050 3150 12900 3150
 Connection ~ 14050 3150
 Connection ~ 12900 3150
+$Comp
+L Device:R_Small R2
+U 1 1 61A60D7F
+P 9250 2850
+F 0 "R2" V 9054 2850 50  0000 C CNN
+F 1 "1k" V 9145 2850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 9250 2850 50  0001 C CNN
+F 3 "~" H 9250 2850 50  0001 C CNN
+	1    9250 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9350 2850 9600 2850
+$Comp
+L power:GND #PWR?
+U 1 1 61C02F04
+P 11750 4750
+F 0 "#PWR?" H 11750 4500 50  0001 C CNN
+F 1 "GND" H 11755 4577 50  0000 C CNN
+F 2 "" H 11750 4750 50  0001 C CNN
+F 3 "" H 11750 4750 50  0001 C CNN
+	1    11750 4750
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
