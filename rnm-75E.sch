@@ -262,8 +262,6 @@ Text GLabel 5350 5050 2    50   Input ~ 0
 D+
 Text GLabel 4350 5050 0    50   Input ~ 0
 D-
-Text GLabel 3300 7100 0    50   Input ~ 0
-XTAL1
 $Comp
 L Device:Crystal_GND24_Small Y1
 U 1 1 609F1691
@@ -333,10 +331,6 @@ Wire Wire Line
 Connection ~ 6300 5300
 Wire Wire Line
 	6300 5300 6300 5600
-Text GLabel 7350 5100 2    50   Input ~ 0
-XTAL1
-Text GLabel 7350 5350 2    50   Input ~ 0
-XTAL2
 Wire Wire Line
 	6900 5300 6900 5350
 Wire Wire Line
@@ -3489,8 +3483,6 @@ Wire Wire Line
 	3300 8900 2350 8900
 Wire Wire Line
 	1650 8900 2150 8900
-Text GLabel 3300 7300 0    50   Input ~ 0
-XTAL2
 Text GLabel 3300 6900 0    50   Input ~ 0
 RESET
 Text GLabel 3300 7900 0    50   Input ~ 0
@@ -3549,28 +3541,6 @@ Text GLabel 12850 4550 2    50   Input ~ 0
 ENCODER_A
 Text GLabel 10700 4550 0    50   Input ~ 0
 ENCODER_B
-$Comp
-L power:+5V #PWR0119
-U 1 1 61C5F900
-P 11150 3900
-F 0 "#PWR0119" H 11150 3750 50  0001 C CNN
-F 1 "+5V" H 11165 4073 50  0000 C CNN
-F 2 "" H 11150 3900 50  0001 C CNN
-F 3 "" H 11150 3900 50  0001 C CNN
-	1    11150 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0120
-U 1 1 61C6148D
-P 12350 3900
-F 0 "#PWR0120" H 12350 3750 50  0001 C CNN
-F 1 "+5V" H 12365 4073 50  0000 C CNN
-F 2 "" H 12350 3900 50  0001 C CNN
-F 3 "" H 12350 3900 50  0001 C CNN
-	1    12350 3900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10700 4550 11150 4550
 Wire Wire Line
@@ -3808,12 +3778,12 @@ U 1 1 62404723
 P 18500 4100
 F 0 "CAPS_LOCK_LED1" H 18493 3845 50  0000 C CNN
 F 1 "LED" H 18493 3936 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric" H 18500 4100 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 18500 4100 50  0001 C CNN
 F 3 "~" H 18500 4100 50  0001 C CNN
 	1    18500 4100
 	-1   0    0    1   
 $EndComp
-Text GLabel 18350 4100 0    50   Input ~ 0
+Text GLabel 17950 4100 0    50   Input ~ 0
 LED_PIN
 $Comp
 L power:GND #PWR0123
@@ -3826,8 +3796,6 @@ F 3 "" H 19000 4300 50  0001 C CNN
 	1    19000 4300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	18650 4100 19000 4100
 $Comp
 L Device:R_Small R1
 U 1 1 6240AFA2
@@ -4021,4 +3989,67 @@ Connection ~ 13350 10650
 Wire Wire Line
 	13650 11050 13650 10450
 Connection ~ 13650 10450
+$Comp
+L Device:LED CAPS_LOCK_LED2
+U 1 1 60A1F01D
+P 18500 4450
+F 0 "CAPS_LOCK_LED2" H 18493 4195 50  0000 C CNN
+F 1 "LED" H 18493 4286 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 18500 4450 50  0001 C CNN
+F 3 "~" H 18500 4450 50  0001 C CNN
+	1    18500 4450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	17950 4100 18100 4100
+Wire Wire Line
+	18100 4100 18100 4450
+Wire Wire Line
+	18100 4450 18350 4450
+Connection ~ 18100 4100
+Wire Wire Line
+	18100 4100 18350 4100
+Text GLabel 7350 5350 2    50   Input ~ 0
+XTAL2
+Text GLabel 7350 5100 2    50   Input ~ 0
+XTAL1
+Text GLabel 3300 7300 0    50   Input ~ 0
+XTAL2
+Wire Wire Line
+	18650 4450 18850 4450
+Wire Wire Line
+	18850 4450 18850 4100
+Wire Wire Line
+	18650 4100 18850 4100
+Wire Wire Line
+	18850 4100 19000 4100
+Connection ~ 18850 4100
+Text GLabel 3300 7100 0    50   Input ~ 0
+XTAL1
+$Comp
+L power:VCC #PWR?
+U 1 1 60C2D023
+P 11350 3900
+F 0 "#PWR?" H 11350 3750 50  0001 C CNN
+F 1 "VCC" H 11365 4073 50  0000 C CNN
+F 2 "" H 11350 3900 50  0001 C CNN
+F 3 "" H 11350 3900 50  0001 C CNN
+	1    11350 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 60C2DEE9
+P 12200 3900
+F 0 "#PWR?" H 12200 3750 50  0001 C CNN
+F 1 "VCC" H 12215 4073 50  0000 C CNN
+F 2 "" H 12200 3900 50  0001 C CNN
+F 3 "" H 12200 3900 50  0001 C CNN
+	1    12200 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11150 3900 11350 3900
+Wire Wire Line
+	12200 3900 12350 3900
 $EndSCHEMATC
