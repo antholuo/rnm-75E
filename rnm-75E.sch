@@ -3526,9 +3526,9 @@ $EndComp
 Wire Wire Line
 	11750 4750 11750 3350
 Text GLabel 12850 4550 2    50   Input ~ 0
-ENCODER_A
+ENCODER+
 Text GLabel 10700 4550 0    50   Input ~ 0
-ENCODER_B
+ENCODER-
 Wire Wire Line
 	10700 4550 11150 4550
 Wire Wire Line
@@ -3554,10 +3554,10 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10000 2475 50  0001
 	1    9900 2850
 	1    0    0    -1  
 $EndComp
-Text GLabel 3300 9400 0    50   Input ~ 0
-ENCODER_B
-Text GLabel 3300 9300 0    50   Input ~ 0
-ENCODER_A
+Text GLabel 3300 10200 0    50   Input ~ 0
+ENCODER-
+Text GLabel 3300 10300 0    50   Input ~ 0
+ENCODER+
 Wire Wire Line
 	12350 3900 12350 4550
 Wire Wire Line
@@ -4014,17 +4014,6 @@ F 3 "" H 11350 3900 50  0001 C CNN
 	1    11350 3900
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:VCC #PWR0120
-U 1 1 60C2DEE9
-P 12200 3900
-F 0 "#PWR0120" H 12200 3750 50  0001 C CNN
-F 1 "VCC" H 12215 4073 50  0000 C CNN
-F 2 "" H 12200 3900 50  0001 C CNN
-F 3 "" H 12200 3900 50  0001 C CNN
-	1    12200 3900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	11150 3900 11350 3900
 Wire Wire Line
@@ -4052,4 +4041,15 @@ Text GLabel 4500 7200 2    50   Input ~ 0
 COL4
 Text GLabel 4500 7000 2    50   Input ~ 0
 COL6
+$Comp
+L power:VCC #PWR?
+U 1 1 6134010C
+P 12200 3900
+F 0 "#PWR?" H 12200 3750 50  0001 C CNN
+F 1 "VCC" H 12215 4073 50  0000 C CNN
+F 2 "" H 12200 3900 50  0001 C CNN
+F 3 "" H 12200 3900 50  0001 C CNN
+	1    12200 3900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
