@@ -345,7 +345,7 @@ U 1 1 609FAFEE
 P 1850 7250
 F 0 "J1" H 1521 7346 50  0000 R CNN
 F 1 "AVR-ISP-6" H 1521 7255 50  0000 R CNN
-F 2 "Connector_PinSocket_1.00mm:PinSocket_2x03_P1.00mm_Vertical_SMD" V 1600 7300 50  0001 C CNN
+F 2 "random_keyboard_parts:Reset_Pretty-Mask" V 1600 7300 50  0001 C CNN
 F 3 " ~" H 575 6700 50  0001 C CNN
 	1    1850 7250
 	1    0    0    -1  
