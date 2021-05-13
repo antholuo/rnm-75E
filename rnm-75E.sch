@@ -3837,7 +3837,7 @@ Text GLabel 5350 8800 2    50   Input ~ 0
 SCL
 Text GLabel 5350 8900 2    50   Input ~ 0
 SDA
-Text GLabel 3300 9000 0    50   Input ~ 0
+Text GLabel 4500 7800 2    50   Input ~ 0
 LED_PIN
 Text GLabel 3300 9600 0    50   Input ~ 0
 ROWF
