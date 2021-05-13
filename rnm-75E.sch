@@ -4054,4 +4054,15 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc7593.pdf" H 3900 8600 50
 	1    3900 8600
 	1    0    0    -1  
 $EndComp
+$Comp
+L MCU_Microchip_AVR:AT90USB1286-AU U?
+U 1 1 61F70342
+P 7750 9100
+F 0 "U?" H 7750 7011 50  0000 C CNN
+F 1 "AT90USB1286-AU" H 7750 6920 50  0000 C CNN
+F 2 "Package_QFP:TQFP-64_14x14mm_P0.8mm" H 7750 9100 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc7593.pdf" H 7750 9100 50  0001 C CNN
+	1    7750 9100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
