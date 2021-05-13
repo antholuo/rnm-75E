@@ -3693,7 +3693,7 @@ Wire Wire Line
 	17350 2850 17750 2850
 Wire Wire Line
 	18350 2850 18750 2850
-Text GLabel 3300 9000 0    50   Input ~ 0
+Text GLabel 4500 7800 2    50   Input ~ 0
 LED
 Text GLabel 9600 2850 0    50   Input ~ 0
 LED
@@ -3872,7 +3872,7 @@ Text GLabel 5350 8800 2    50   Input ~ 0
 SCL
 Text GLabel 5350 8900 2    50   Input ~ 0
 SDA
-Text GLabel 4500 7800 2    50   Input ~ 0
+Text GLabel 3300 9000 0    50   Input ~ 0
 LED_PIN
 Text GLabel 4500 9800 2    50   Input ~ 0
 ROWF
@@ -4042,10 +4042,10 @@ Wire Wire Line
 Wire Wire Line
 	12200 3900 12350 3900
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0125
 U 1 1 60E1267F
 P 6300 8700
-F 0 "#PWR?" H 6300 8550 50  0001 C CNN
+F 0 "#PWR0125" H 6300 8550 50  0001 C CNN
 F 1 "+5V" H 6315 8873 50  0000 C CNN
 F 2 "" H 6300 8700 50  0001 C CNN
 F 3 "" H 6300 8700 50  0001 C CNN
