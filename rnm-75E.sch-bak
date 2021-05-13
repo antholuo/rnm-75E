@@ -3414,11 +3414,11 @@ Text GLabel 4500 7600 2    50   Input ~ 0
 COL0
 Text GLabel 4500 6900 2    50   Input ~ 0
 COL7
-Text GLabel 3300 10300 0    50   Input ~ 0
+Text GLabel 4500 8500 2    50   Input ~ 0
 COL8
-Text GLabel 3300 10200 0    50   Input ~ 0
+Text GLabel 3300 9100 0    50   Input ~ 0
 COL9
-Text GLabel 3300 10100 0    50   Input ~ 0
+Text GLabel 3300 9200 0    50   Input ~ 0
 COL10
 Text GLabel 3300 10000 0    50   Input ~ 0
 COL11
@@ -3428,7 +3428,7 @@ Text GLabel 3300 9800 0    50   Input ~ 0
 COL13
 Text GLabel 3300 9700 0    50   Input ~ 0
 COL14
-Text GLabel 3300 9600 0    50   Input ~ 0
+Text GLabel 3300 10300 0    50   Input ~ 0
 COL15
 $Comp
 L Device:Rotary_Encoder_Switch SW2
@@ -3862,7 +3862,7 @@ Text GLabel 5350 8900 2    50   Input ~ 0
 SDA
 Text GLabel 3300 9000 0    50   Input ~ 0
 LED_PIN
-Text GLabel 4500 9800 2    50   Input ~ 0
+Text GLabel 3300 9600 0    50   Input ~ 0
 ROWF
 Text GLabel 4500 9900 2    50   Input ~ 0
 ROWE
