@@ -3456,17 +3456,6 @@ Wire Wire Line
 	11850 5350 12150 5350
 Wire Wire Line
 	11850 5550 11850 5650
-$Comp
-L MCU_Microchip_AVR:AT90USB646-AU U1
-U 1 1 61783827
-P 3900 8600
-F 0 "U1" H 4300 6600 50  0000 C CNN
-F 1 "AT90USB646-AU" H 4350 6500 50  0000 C CNN
-F 2 "Package_QFP:TQFP-64_14x14mm_P0.8mm" H 3900 8600 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc7593.pdf" H 3900 8600 50  0001 C CNN
-	1    3900 8600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3300 8900 2350 8900
 Wire Wire Line
@@ -4053,5 +4042,16 @@ F 2 "" H 11750 4750 50  0001 C CNN
 F 3 "" H 11750 4750 50  0001 C CNN
 	1    11750 4750
 	-1   0    0    1   
+$EndComp
+$Comp
+L MCU_Microchip_AVR:AT90USB646-AU U1
+U 1 1 61783827
+P 3900 8600
+F 0 "U1" H 4300 6600 50  0000 C CNN
+F 1 "AT90USB646-AU" H 4350 6500 50  0000 C CNN
+F 2 "Package_QFP:TQFP-64_14x14mm_P0.8mm" H 3900 8600 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc7593.pdf" H 3900 8600 50  0001 C CNN
+	1    3900 8600
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

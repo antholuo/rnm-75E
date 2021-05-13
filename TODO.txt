@@ -3,6 +3,10 @@ PCB WISE:
 ✓ Add 7u spacebar support (this is 2x1.5 7u 2x1.5 compared to 3x1.25 6.25g 3x1)
 - Add replaceable fuse and overcurrent protection.
 - complete pcb routing
+- Switch to at901286 (jlc basic parts)
+- Switch esd protection to srv05 (jlc basic parts)
+- Change LED's to use JLC basic parts stamps
+
 
 Design Wise:
 ---------------------------------
