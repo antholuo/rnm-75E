@@ -249,7 +249,7 @@ F 3 "" H 4850 5650 50  0001 C CNN
 $EndComp
 Text GLabel 4350 5250 0    50   Input ~ 0
 D+
-Text GLabel 4350 5050 0    50   Input ~ 0
+Text GLabel 5350 5050 2    50   Input ~ 0
 D-
 $Comp
 L Device:Crystal_GND24_Small Y1

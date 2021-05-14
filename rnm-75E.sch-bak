@@ -19,7 +19,7 @@ U 1 1 609C1917
 P 1950 5000
 F 0 "J2" H 2057 5867 50  0000 C CNN
 F 1 "USB_C_Receptacle_USB2.0" H 2057 5776 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G" H 2100 5000 50  0001 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 2100 5000 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 2100 5000 50  0001 C CNN
 	1    1950 5000
 	1    0    0    -1  
@@ -4057,10 +4057,10 @@ $EndComp
 Wire Wire Line
 	4850 4650 4850 4200
 $Comp
-L Device:C_Small C_F?
+L Device:C_Small C_F3
 U 1 1 60A3A0B9
 P 5650 6200
-F 0 "C_F?" H 5742 6246 50  0000 L CNN
+F 0 "C_F3" H 5742 6246 50  0000 L CNN
 F 1 "0.1uF" H 5742 6155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 5650 6200 50  0001 C CNN
 F 3 "~" H 5650 6200 50  0001 C CNN
