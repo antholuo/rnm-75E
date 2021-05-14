@@ -4056,4 +4056,21 @@ F 3 "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF" H 4850 5150 50  0001 C 
 $EndComp
 Wire Wire Line
 	4850 4650 4850 4200
+$Comp
+L Device:C_Small C_F3
+U 1 1 60A3A0B9
+P 5650 6200
+F 0 "C_F3" H 5742 6246 50  0000 L CNN
+F 1 "0.1uF" H 5742 6155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5650 6200 50  0001 C CNN
+F 3 "~" H 5650 6200 50  0001 C CNN
+	1    5650 6200
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6050 6100 5650 6100
+Connection ~ 6050 6100
+Wire Wire Line
+	5650 6300 6050 6300
+Connection ~ 6050 6300
 $EndSCHEMATC
