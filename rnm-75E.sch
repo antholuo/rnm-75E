@@ -2983,8 +2983,6 @@ Connection ~ 19650 5450
 Wire Wire Line
 	19900 6450 19900 7450
 Connection ~ 19900 6450
-Wire Wire Line
-	19900 7450 19900 8450
 Connection ~ 19900 7450
 Wire Wire Line
 	19900 8450 19900 9100
@@ -3200,8 +3198,6 @@ Connection ~ 18150 8850
 Wire Wire Line
 	18150 8850 18650 8850
 Connection ~ 18650 8850
-Wire Wire Line
-	18650 8850 19600 8850
 Connection ~ 19600 8850
 Wire Wire Line
 	19600 8850 20850 8850
@@ -4191,4 +4187,8 @@ Wire Wire Line
 Wire Wire Line
 	19600 6600 19600 6650
 Connection ~ 19600 6650
+Wire Wire Line
+	19900 7450 19900 8450
+Wire Wire Line
+	18650 8850 19600 8850
 $EndSCHEMATC
