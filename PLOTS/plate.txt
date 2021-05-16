@@ -1,10 +1,11 @@
 [{x:3.25,c:"#c1a187"},"ENC",{c:"#cccccc"},"ESC","F1","F2","F3","F4","F5","F6","F7","F8","F9","F10","F11","F12","DEL"],
 [{x:3.25},"LM1","`","1","2","3","4","5","6","7","8","9","0","-","=",{c:"#ffe5d3",w:2},"BS",{c:"#cccccc"},"RM1",{x:0.5,c:"#ffe5d3",a:7},"",""],
 [{x:3.25,c:"#cccccc",a:4},"LM2",{w:1.5},"TAB","Q","W","E","R","T","Y","U","I","O","P","[","]",{w:1.5},"\\","RM2"],
-[{x:0.5,c:"#81c0b0",w:1.25,w2:1.75,l:true},"STEP\n\n\n\n\n\nCAPS",{x:1.5,c:"#cccccc"},"LM3",{c:"#81c0b0",w:1.75},"CAPS",{c:"#cccccc"},"A","S","D","F","G","H","J","K","L",";","'",{w:2.25},"ENTR","RM3"],
+[{x:0.5,c:"#81c0b0",w:1.25},"STEP\n\n\n\n\n\nCAPS",{x:1.5,c:"#cccccc"},"LM3",{c:"#81c0b0",w:1.75},"CAPS",{c:"#cccccc"},"A","S","D","F","G","H","J","K","L",";","'",{w:2.25},"ENTR","RM3"],
 [{x:0.5,c:"#f69c97",a:7,w:1.25},"","",{x:0.5,c:"#cccccc",a:4},"LM4",{c:"#f69c97",w:2.25},"LSHIFT\n\n\n\n\n\n\n\n\n\n2.25u",{c:"#cccccc"},"Z","X","C","V","B","N","M",",",".","/",{w:1.75},"RSHIFT\n\n\n\n\n\n\n\n\n\n1.75u","^","RM4"],
 [{x:3.25},"LM5",{c:"#569cc4",w:1.25},"CTRL\n\n\n\n\n\n\n\n\n\n1.25u",{w:1.25},"WIN\n\n\n\n\n\n\n\n\n\n1.25u",{w:1.25},"ALT\n\n\n\n\n\n\n\n\n\n1.25u",{c:"#cccccc",a:5,w:6.25},"\n6.25u",{c:"#49646d",a:4},"ALT\n\n\n\n\n\n\n\n\n\n1u","WIN\n\n\n\n\n\n\n\n\n\n1u","CTRL\n\n\n\n\n\n\n\n\n\n1u",{c:"#cccccc"},"<","DA",">"],
 [{y:0.5,x:4.25,c:"#569cc4",a:5,w:1.5},"\n1.5u",{w:1.5},"\n1.5u",{c:"#cccccc",w:7},"\n7u",{c:"#49646d",w:1.5},"\n1.5u",{w:1.5},"\n1.5u"]
+
 
 
 https://plate.keeb.io/
