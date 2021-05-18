@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.9)-1"
     },
-    "CreationDate":  "2021-05-17T22:20:43-04:00"
+    "CreationDate":  "2021-05-17T22:22:55-04:00"
   },
   "GeneralSpecs":
   {
@@ -31,7 +31,8 @@
       "Layers": "Outer",
       "PadToPad":  0.200,
       "PadToTrack":  0.200,
-      "TrackToTrack":  0.200
+      "TrackToTrack":  0.200,
+      "MinLineWidth":  0.250
     }
   ],
   "FilesAttributes":

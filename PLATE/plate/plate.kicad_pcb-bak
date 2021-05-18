@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 749)
+    (drawings 750)
     (tracks 0)
     (zones 0)
     (modules 0)
@@ -100,7 +100,10 @@
     (uvia_drill 0.1)
   )
 
-  (gr_arc (start 63.5 115.697) (end 62.9365 115.742999) (angle -78.7) (layer Edge.Cuts) (width 0.2))
+  (gr_line (start 57.823364 115.823999) (end 57.8865 115.743) (layer Edge.Cuts) (width 0.05) (tstamp 60A35E5E))
+  (gr_arc (start 57.404 115.824) (end 57.386501 116.242999) (angle -92.3916318) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 63.434686 116.258589) (end 63.4365 116.243) (layer Edge.Cuts) (width 0.05) (tstamp 60A35E56))
+  (gr_arc (start 63.5 115.697) (end 62.9365 115.742999) (angle -78.69943134) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 53.467 97.028) (end 53.911499 97.193) (layer Edge.Cuts) (width 0.05) (tstamp 60A35E3A))
   (gr_line (start 53.4115 96.693) (end 53.467 97.028) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 265.176 42.291) (end 300.968232 42.592999) (layer Edge.Cuts) (width 0.05) (tstamp 60A35E2E))
@@ -386,7 +389,6 @@
   (gr_arc (start 171.6865 115.742999) (end 171.6865 116.243) (angle -90) (layer Edge.Cuts) (width 0.2))
   (gr_arc (start 190.7365 102.743) (end 191.2365 102.743) (angle -90) (layer Edge.Cuts) (width 0.2))
   (gr_line (start 57.8865 102.743) (end 57.8865 115.743) (layer Edge.Cuts) (width 0.2))
-  (gr_arc (start 57.386499 115.742999) (end 57.3865 116.243) (angle -90) (layer Edge.Cuts) (width 0.2))
   (gr_line (start 152.6365 116.243) (end 139.6365 116.243) (layer Edge.Cuts) (width 0.2))
   (gr_line (start 190.7365 102.243) (end 177.7365 102.243) (layer Edge.Cuts) (width 0.2))
   (gr_arc (start 158.6865 102.743) (end 158.6865 102.243) (angle -90) (layer Edge.Cuts) (width 0.2))
@@ -485,7 +487,6 @@
   (gr_line (start 191.524 121.793) (end 191.524 134.793) (layer Edge.Cuts) (width 0.2))
   (gr_arc (start 300.274 134.793) (end 300.274 135.293) (angle -90) (layer Edge.Cuts) (width 0.2))
   (gr_arc (start 300.274 121.792999) (end 300.774 121.793) (angle -90) (layer Edge.Cuts) (width 0.2))
-  (gr_circle (center 261.02756 117.30608) (end 258.723655 117.30608) (layer Edge.Cuts) (width 0.2))
   (gr_circle (center 261.02756 117.30608) (end 258.723655 117.30608) (layer Edge.Cuts) (width 0.2))
   (gr_circle (center 36.804979 42.648118) (end 34.505012 42.648118) (layer Edge.Cuts) (width 0.2))
   (gr_line (start 162.474 121.293) (end 162.474 120.293) (layer Edge.Cuts) (width 0.2))
