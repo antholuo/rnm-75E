@@ -4191,4 +4191,16 @@ Wire Wire Line
 	19900 7450 19900 8450
 Wire Wire Line
 	18650 8850 19600 8850
+Text Notes 10850 5900 0    50   ~ 0
+0\n
+Text Notes 10900 6900 0    50   ~ 0
+1
+Text Notes 10950 7900 0    50   ~ 0
+2
+Text Notes 11000 8850 0    50   ~ 0
+3
+Text Notes 11000 9900 0    50   ~ 0
+4
+Text Notes 10950 10900 0    50   ~ 0
+5
 $EndSCHEMATC
